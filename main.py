@@ -20,6 +20,9 @@ komentariya
 
 
 
+
+                # WHILE TSIKLI MISOLLARI
+
 # n = 423
 # summa = 0
 # print(summa)
@@ -49,11 +52,73 @@ komentariya
 # #    print(i)
 
 
-text = 'salom duyo qalesan bolyaptimi ishlar'
-print(text[:])      # salom duyo qalesan bolyaptimi ishlar
-print(text[19:])    # bolyaptimi ishlar (19- elementdan oxirigacha)
-print(text[:2])     # sa (2-chi elementgacha)
-print(text[:-2])    # salom duyo qalesan bolyaptimi ishl
-print(text[-2:])    # ar (oxiridan 2-chi xarifdan uyog'iga)
-print(text[2:15])   # lom duyo qale (2-dan 15-gacha bolgan element)
-print(text[::5])    # s  sotir (xar 5- element)
+
+
+
+
+
+# text = 'salom duyo qalesan bolyaptimi ishlar'
+# print(len(text))    # 36
+# print(text[:])      # salom duyo qalesan bolyaptimi ishlar
+# print(text[19:])    # bolyaptimi ishlar (19- elementdan oxirigacha)
+# print(text[:2])     # sa (2-chi elementgacha)
+# print(text[:-2])    # salom duyo qalesan bolyaptimi ishl
+# print(text[-2:])    # ar (oxiridan 2-chi xarifdan uyog'iga)
+# print(text[2:15])   # lom duyo qale (2-dan 15-gacha bolgan element)
+# print(text[::5])    # s  sotir (xar 5- element)
+
+
+
+
+
+                # FOR TSIKLI MISOLLARI
+
+
+# a = 'qwerty'
+
+# for i in a:
+#     print(i)
+
+# a = ['olma', 'banan', 'gilos']
+
+# for i in a:
+#     print(i)
+
+# a = ['olma', 'banan', 'gilos']
+
+# for index, i in enumerate(a):
+#     print(f"{index}: {i}")
+
+
+
+# for i in range(100, -10, -10):
+#        print(i)
+
+        # bu kodda raqamlar bilam ishlash 100 dan 0 gacha bolgan 
+        # raqamlarni 10 qadamdan yurib ekrancga chiqaradi
+        # 100 (start) - boshlang'ich qiymat (ixtiyoriy, standart qiymati 0)
+        # -10 (stop) - to'xtash qiymati (ushbu qiymatning o'zi generatsiya qilinmaydi)
+        # -10 (step) - qadam (ixtiyoriy, standart qiymati 1) 
+        # qadam (step) shart yozish vaqtida yozilmagan bolsa kompiyuter 
+        # buni avtomatik ravishda ijobiyga (+) tomonga hisoblaydi 
+        # minusga hisoblash uchun qadam (step) yozilishi kerak
+
+
+
+# line = ""
+# for i in range(5):
+#     line = ""  
+#     for j in range(5):
+#         line += "*"
+#     print(line)
+
+#     # for tsikili ichida tsikil bu jarayoni tashqi tsikil boshlaydi 
+#     # va ichki tsikil davom etiradi toki ichki tsikil ozini ishin tugatmaguncha 
+#     # tashqi tsikl boshlagan ishini tugata olmaydi yani birinchi urinishdayoq kutadi 
+#     # toki ichki tsikl qancha aylanish olgan bolsa shuni bitirmaguncha 
+
+
+
+
+
+

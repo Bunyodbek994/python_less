@@ -22,4 +22,3 @@ print(list_3)
 
 # Ikkinchi tushunchalar
 
-# Uchini tushunchalar
